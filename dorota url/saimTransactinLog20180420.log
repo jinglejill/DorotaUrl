@@ -1,0 +1,40 @@
+2018-04-20T17:20:49+07:00 file: SAIMWriteLog.php
+2018-04-20T17:20:49+07:00 
+fail with exception: admin,af23c2d1861c7dd22e4e909fcef283e2e927cca486b497930f0c680211991e1a
+*** -[__NSPlaceholderDictionary initWithObjects:forKeys:count:]: attempt to insert nil object from objects[0]
+0   CoreFoundation                      0x000000018624317c <redacted>   148
+1   libobjc.A.dylib                     0x000000018548c528 objc_exception_throw   56
+2   CoreFoundation                      0x00000001861dbc9c _CFArgv   0
+3   CoreFoundation                      0x0000000186113fd0 <redacted>   352
+4   CoreFoundation                      0x0000000186113e4c <redacted>   64
+5   Dorota                              0x0000000104ac7368 -[PrintQRCodeViewController tableView:cellForRowAtIndexPath:]   2208
+6   UIKit                               0x000000018fb38a30 <redacted>   664
+7   UIKit                               0x000000018fb38f94 <redacted>   80
+8   UIKit                               0x000000018fb17818 <redacted>   2336
+9   UIKit                               0x000000018f8ce284 <redacted>   140
+10  UIKit                               0x000000018f7fae18 <redacted>   1276
+11  QuartzCore                          0x000000018a287948 <redacted>   184
+12  QuartzCore                          0x000000018a28bad0 <redacted>   332
+13  QuartzCore                          0x000000018a1f831c <redacted>   336
+14  QuartzCore                          0x000000018a21fb40 <redacted>   540
+15  QuartzCore                          0x000000018a220980 <redacted>   92
+16  CoreFoundation                      0x00000001861eacdc <redacted>   32
+17  CoreFoundation                      0x00000001861e8694 <redacted>   412
+18  CoreFoundation                      0x00000001861e8c50 <redacted>   1292
+19  CoreFoundation                      0x0000000186108c58 CFRunLoopRunSpecific   436
+20  GraphicsServices                    0x0000000187fb4f84 GSEventRunModal   100
+21  UIKit                               0x000000018f8615c4 UIApplicationMain   236
+22  Dorota                              0x0000000104aff680 main   124
+23  libdyld.dylib                       0x0000000185c2856c <redacted>   4
+2018-04-20T17:20:49+07:00 file: SAIMMasterGet.php
+2018-04-20T17:20:49+07:00 query success, sql: SELECT * FROM Setting where enumKey = 'expiredDate', modified user: (null)
+2018-04-20T17:20:49+07:00 not expire
+2018-04-20T17:20:49+07:00 sql = SELECT *, 1 as IdInserted FROM UserAccount order by Username;SELECT *, 1 as IdInserted FROM ProductName;SELECT *, 1 as IdInserted FROM Color;SELECT *, 1 as IdInserted FROM `product` WHERE Status in ('I','P') or (Status='S' AND productid in (SELECT productid FROM ReceiptProductItemlimit WHERE ProductType in ('I','A','P','D','S','F','R'))) OR (productID IN (SELECT productid FROM `maxproductid` WHERE 1));SELECT *, 1 as IdInserted from Event;SELECT *, 1 as IdInserted FROM UserAccountEvent;SELECT *, 1 as IdInserted FROM ProductCategory2;SELECT *, 1 as IdInserted FROM ProductCategory1;select *, 1 as IdInserted FROM ProductSales;SELECT *, 1 as IdInserted FROM `CashAllocation`;SELECT *, 1 as IdInserted FROM `CustomMade`;SELECT *, 1 as IdInserted FROM `Receipt` WHERE (receiptID in (SELECT receiptid FROM ReceiptProductItemlimit)) OR (receiptID IN (SELECT receiptID FROM `maxreceiptid` WHERE 1));SELECT *, 1 as IdInserted FROM ReceiptProductItem where receiptproductitemid in (select receiptproductitemid from receiptproductitemlimit) or (receiptProductItemID IN (SELECT receiptProductItemID FROM `maxreceiptProductItemid` WHERE 1));SELECT *, 1 as IdInserted FROM `compareinventoryhistory` where compareinventoryhistoryID in (select compareinventoryhistoryid from compareinventoryhistorylimit) OR (compareInventoryHistoryID IN (SELECT compareInventoryHistoryID FROM `maxCompareInventoryHistoryid` WHERE 1));SELECT *, 1 as IdInserted FROM `compareinventory` WHERE `RunningSetNo` in (select compareinventoryhistoryid from compareinventoryhistorylimit) OR (compareInventoryid IN (SELECT compareInventoryid FROM `maxcompareInventoryid` WHERE 1));SELECT *, 1 as IdInserted FROM `ProductSalesSet` WHERE 1;SELECT *, 1 as IdInserted FROM `CustomerReceipt` WHERE 1;SELECT *, 1 as IdInserted FROM `PostCustomer` WHERE 1;SELECT *, 1 as IdInserted FROM `ProductCost` WHERE 1;SELECT *, 1 as IdInserted FROM `EventCost` WHERE 1;SELECT *, 1 as IdInserted FROM `CostLabel` WHERE 1;SELECT *, 1 as IdInserted FROM `ProductSize` WHERE 1;SELECT case when max(RunningID) is null then 0 else max(RunningID) end as RunningID, 1 as IdInserted FROM `ImageRunningID`;SELECT *, 1 as IdInserted FROM `ProductDelete` order by productdeleteid desc limit 100;SELECT *, 1 as IdInserted FROM `Setting` WHERE 1;SELECT *, 1 as IdInserted FROM `Postcode` WHERE zone in (1,2);SELECT *, 1 as IdInserted FROM RewardPoint;SELECT *, 1 as IdInserted FROM `rewardprogram` WHERE `DateStart` <= curdate() and DateEnd >= curdate() UNION select *, 1 as IdInserted from rewardprogram WHERE RewardProgramID in (select max(RewardProgramID) FROM rewardprogram);select *, 1 as IdInserted from preOrderEventIDHistory;
+2018-04-20T17:20:50+07:00 file: SAIMPushSyncUpdateByDeviceToken.php
+2018-04-20T17:20:50+07:00 query success, sql: UPDATE `PushSync` SET `TimeSynced` = now() WHERE DeviceToken = 'af23c2d1861c7dd22e4e909fcef283e2e927cca486b497930f0c680211991e1a' and TimeSynced = '0000-00-00 00:00:00', modified user: (null)
+2018-04-20T17:20:52+07:00 file: SAIMLoginInsert.php
+2018-04-20T17:20:52+07:00 query success, sql: insert into `Login` (`Username`,`Status`,`DeviceToken`) values ('admin',1,'af23c2d1861c7dd22e4e909fcef283e2e927cca486b497930f0c680211991e1a'), modified user: admin
+2018-04-20T17:21:01+07:00 file: SAIMItemRunningIDInsert.php
+2018-04-20T17:21:01+07:00 set auto commit to off
+2018-04-20T17:21:01+07:00 query success, sql: INSERT INTO `itemRunningID`(`ModifiedDate`) VALUES (now()), modified user: admin
+2018-04-20T17:21:01+07:00 query commit, file: SAIMItemRunningIDInsert.php

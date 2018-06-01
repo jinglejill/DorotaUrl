@@ -17,6 +17,139 @@
 		EFB871C020C13BA10011AF78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB871BF20C13BA10011AF78 /* main.m */; };
 		EFB871CA20C13BA10011AF78 /* DorotaUrlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB871C920C13BA10011AF78 /* DorotaUrlTests.m */; };
 		EFB871D520C13BA10011AF78 /* DorotaUrlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB871D420C13BA10011AF78 /* DorotaUrlUITests.m */; };
+		EFB8726820C13BB00011AF78 /* saimTransactinLog20180328.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB871E320C13BB00011AF78 /* saimTransactinLog20180328.log */; };
+		EFB8726920C13BB00011AF78 /* SAIMReceiptProductItemPreOrder.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB871E420C13BB00011AF78 /* SAIMReceiptProductItemPreOrder.php */; };
+		EFB8726A20C13BB00011AF78 /* SAIMSalesSummaryByPeriodGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB871E520C13BB00011AF78 /* SAIMSalesSummaryByPeriodGet.php */; };
+		EFB8726B20C13BB00011AF78 /* SAIMProductDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB871E620C13BB00011AF78 /* SAIMProductDelete.php */; };
+		EFB8726C20C13BB00011AF78 /* SAIMProductSalesDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB871E720C13BB00011AF78 /* SAIMProductSalesDelete.php */; };
+		EFB8726D20C13BB00011AF78 /* SAIMReceiptProductItemAndProductUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB871E820C13BB00011AF78 /* SAIMReceiptProductItemAndProductUpdate.php */; };
+		EFB8726E20C13BB00011AF78 /* saimTransactinLog20180329.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB871E920C13BB00011AF78 /* saimTransactinLog20180329.log */; };
+		EFB8726F20C13BB00011AF78 /* sendEmail.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB871EA20C13BB00011AF78 /* sendEmail.php */; };
+		EFB8727020C13BB00011AF78 /* SAIMReceiptProductItemUnpost.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB871EB20C13BB00011AF78 /* SAIMReceiptProductItemUnpost.php */; };
+		EFB8727120C13BB00011AF78 /* SAIMSettingUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB871EC20C13BB00011AF78 /* SAIMSettingUpdate.php */; };
+		EFB8727220C13BB00011AF78 /* SAIMReceiptAndProductBuyInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB871ED20C13BB00011AF78 /* SAIMReceiptAndProductBuyInsert.php */; };
+		EFB8727320C13BB00011AF78 /* SAIMMasterGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB871EE20C13BB00011AF78 /* SAIMMasterGet.php */; };
+		EFB8727420C13BB00011AF78 /* SAIMUserAccountUpdateMenuExtra0.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB871EF20C13BB00011AF78 /* SAIMUserAccountUpdateMenuExtra0.php */; };
+		EFB8727520C13BB00011AF78 /* SAIMCustomerReceiptUpdateTrackingNo.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB871F020C13BB00011AF78 /* SAIMCustomerReceiptUpdateTrackingNo.php */; };
+		EFB8727620C13BB00011AF78 /* SAIMAccountReceiptHistoryDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB871F120C13BB00011AF78 /* SAIMAccountReceiptHistoryDelete.php */; };
+		EFB8727720C13BB00011AF78 /* SAIMProductStatusGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB871F220C13BB00011AF78 /* SAIMProductStatusGet.php */; };
+		EFB8727820C13BB00011AF78 /* SAIMPushSyncUpdateTimeSynced.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB871F320C13BB00011AF78 /* SAIMPushSyncUpdateTimeSynced.php */; };
+		EFB8727920C13BB00011AF78 /* SAIMEventDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB871F420C13BB00011AF78 /* SAIMEventDelete.php */; };
+		EFB8727A20C13BB00011AF78 /* SAIMItemRunningIDInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB871F520C13BB00011AF78 /* SAIMItemRunningIDInsert.php */; };
+		EFB8727B20C13BB00011AF78 /* Sales.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB871F620C13BB00011AF78 /* Sales.php */; };
+		EFB8727C20C13BB00011AF78 /* SAIMUserAccountUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB871F720C13BB00011AF78 /* SAIMUserAccountUpdate.php */; };
+		EFB8727D20C13BB00011AF78 /* SAIMProductCategory1Update.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB871F820C13BB00011AF78 /* SAIMProductCategory1Update.php */; };
+		EFB8727E20C13BB00011AF78 /* SAIMSalesSummaryGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB871F920C13BB00011AF78 /* SAIMSalesSummaryGet.php */; };
+		EFB8727F20C13BB00011AF78 /* SAIMCashAllocationInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB871FA20C13BB00011AF78 /* SAIMCashAllocationInsert.php */; };
+		EFB8728020C13BB00011AF78 /* SAIMPushSyncUpdateByDeviceToken.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB871FB20C13BB00011AF78 /* SAIMPushSyncUpdateByDeviceToken.php */; };
+		EFB8728120C13BB00011AF78 /* SAIMProductSalesUpdateCostMultiple.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB871FC20C13BB00011AF78 /* SAIMProductSalesUpdateCostMultiple.php */; };
+		EFB8728220C13BB00011AF78 /* SAIMReceiptProductItemUnpostCM.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB871FD20C13BB00011AF78 /* SAIMReceiptProductItemUnpostCM.php */; };
+		EFB8728320C13BB00011AF78 /* SAIMProductSizeUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB871FE20C13BB00011AF78 /* SAIMProductSizeUpdate.php */; };
+		EFB8728420C13BB00011AF78 /* SAIMProductionOrderAddedGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB871FF20C13BB00011AF78 /* SAIMProductionOrderAddedGet.php */; };
+		EFB8728520C13BB00011AF78 /* SAIMProductSalesMultipleUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8720020C13BB00011AF78 /* SAIMProductSalesMultipleUpdate.php */; };
+		EFB8728620C13BB00011AF78 /* SAIMUserAccountInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8720120C13BB00011AF78 /* SAIMUserAccountInsert.php */; };
+		EFB8728720C13BB00011AF78 /* SAIMCashAllocationUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8720220C13BB00011AF78 /* SAIMCashAllocationUpdate.php */; };
+		EFB8728820C13BB00011AF78 /* SAIMProductCategory1Insert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8720320C13BB00011AF78 /* SAIMProductCategory1Insert.php */; };
+		EFB8728920C13BB00011AF78 /* SAIMEventGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8720420C13BB00011AF78 /* SAIMEventGet.php */; };
+		EFB8728A20C13BB00011AF78 /* SAIMReceiptUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8720520C13BB00011AF78 /* SAIMReceiptUpdate.php */; };
+		EFB8728B20C13BB00011AF78 /* SAIMProductSizeInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8720620C13BB00011AF78 /* SAIMProductSizeInsert.php */; };
+		EFB8728C20C13BB00011AF78 /* ck.pem in Resources */ = {isa = PBXBuildFile; fileRef = EFB8720720C13BB00011AF78 /* ck.pem */; };
+		EFB8728D20C13BB00011AF78 /* SAIMProductSalesUpdateCost.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8720820C13BB00011AF78 /* SAIMProductSalesUpdateCost.php */; };
+		EFB8728E20C13BB00011AF78 /* SAIMProductCategory2Delete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8720920C13BB00011AF78 /* SAIMProductCategory2Delete.php */; };
+		EFB8728F20C13BB00011AF78 /* urlinsertlistprefix.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8720A20C13BB00011AF78 /* urlinsertlistprefix.php */; };
+		EFB8729020C13BB00011AF78 /* SAIMRewardProgramUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8720B20C13BB00011AF78 /* SAIMRewardProgramUpdate.php */; };
+		EFB8729120C13BB00011AF78 /* SAIMCustomMadeUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8720C20C13BB00011AF78 /* SAIMCustomMadeUpdate.php */; };
+		EFB8729220C13BB00011AF78 /* SAIMPostCustomerInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8720D20C13BB00011AF78 /* SAIMPostCustomerInsert.php */; };
+		EFB8729320C13BB00011AF78 /* SAIMProductDeleteFromEvent.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8720E20C13BB00011AF78 /* SAIMProductDeleteFromEvent.php */; };
+		EFB8729420C13BB00011AF78 /* SAIMCustomerReceiptUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8720F20C13BB00011AF78 /* SAIMCustomerReceiptUpdate.php */; };
+		EFB8729520C13BB00011AF78 /* generateSalesAllEvents.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8721020C13BB00011AF78 /* generateSalesAllEvents.php */; };
+		EFB8729620C13BB00011AF78 /* SAIMProductNameDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8721120C13BB00011AF78 /* SAIMProductNameDelete.php */; };
+		EFB8729720C13BB00011AF78 /* SAIMRewardProgramInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8721220C13BB00011AF78 /* SAIMRewardProgramInsert.php */; };
+		EFB8729820C13BB00011AF78 /* dorota20180406.zip in Resources */ = {isa = PBXBuildFile; fileRef = EFB8721320C13BB00011AF78 /* dorota20180406.zip */; };
+		EFB8729920C13BB00011AF78 /* SAIMReceiptProductItemPreOrderCM.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8721420C13BB00011AF78 /* SAIMReceiptProductItemPreOrderCM.php */; };
+		EFB8729A20C13BB00011AF78 /* SAIMTransferHistoryGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8721520C13BB00011AF78 /* SAIMTransferHistoryGet.php */; };
+		EFB8729B20C13BB00011AF78 /* SAIMUserAccountEventDeleteThenMultipleInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8721620C13BB00011AF78 /* SAIMUserAccountEventDeleteThenMultipleInsert.php */; };
+		EFB8729C20C13BB00011AF78 /* SAIMCustomerReceiptUpdatePostCustomerID.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8721720C13BB00011AF78 /* SAIMCustomerReceiptUpdatePostCustomerID.php */; };
+		EFB8729D20C13BB00011AF78 /* saimTransactinLog20180407.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB8721820C13BB00011AF78 /* saimTransactinLog20180407.log */; };
+		EFB8729E20C13BB00011AF78 /* SAIMReceiptAndReceiptProductItemDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8721920C13BB00011AF78 /* SAIMReceiptAndReceiptProductItemDelete.php */; };
+		EFB8729F20C13BB00011AF78 /* saimTransactinLog20180601.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB8721A20C13BB00011AF78 /* saimTransactinLog20180601.log */; };
+		EFB872A020C13BB00011AF78 /* testpush.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8721B20C13BB00011AF78 /* testpush.php */; };
+		EFB872A120C13BB00011AF78 /* SAIMUserAccountEventDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8721C20C13BB00011AF78 /* SAIMUserAccountEventDelete.php */; };
+		EFB872A220C13BB00011AF78 /* SAIMPushSyncUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8721D20C13BB00011AF78 /* SAIMPushSyncUpdate.php */; };
+		EFB872A320C13BB00011AF78 /* SAIMAccountReceiptHistorySummaryByDateGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8721E20C13BB00011AF78 /* SAIMAccountReceiptHistorySummaryByDateGet.php */; };
+		EFB872A420C13BB00011AF78 /* SAIMProductSalesSetInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8721F20C13BB00011AF78 /* SAIMProductSalesSetInsert.php */; };
+		EFB872A520C13BB00011AF78 /* SAIMProductionOrderDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8722020C13BB00011AF78 /* SAIMProductionOrderDelete.php */; };
+		EFB872A620C13BB00011AF78 /* SAIMColorDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8722120C13BB00011AF78 /* SAIMColorDelete.php */; };
+		EFB872A720C13BB00011AF78 /* SAIMReceiptProductItemUpdateCMIn.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8722220C13BB00011AF78 /* SAIMReceiptProductItemUpdateCMIn.php */; };
+		EFB872A820C13BB00011AF78 /* SAIMProductTransferGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8722320C13BB00011AF78 /* SAIMProductTransferGet.php */; };
+		EFB872A920C13BB00011AF78 /* SAIMProductEventIDUpdateByProductID.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8722420C13BB00011AF78 /* SAIMProductEventIDUpdateByProductID.php */; };
+		EFB872AA20C13BB00011AF78 /* SAIMAccountInventoryInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8722520C13BB00011AF78 /* SAIMAccountInventoryInsert.php */; };
+		EFB872AB20C13BB00011AF78 /* SAIMProductSalesSetUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8722620C13BB00011AF78 /* SAIMProductSalesSetUpdate.php */; };
+		EFB872AC20C13BB00011AF78 /* SAIMRewardProgramGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8722720C13BB00011AF78 /* SAIMRewardProgramGet.php */; };
+		EFB872AD20C13BB00011AF78 /* SAIMAccountReceiptHistoryGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8722820C13BB00011AF78 /* SAIMAccountReceiptHistoryGet.php */; };
+		EFB872AE20C13BB00011AF78 /* SAIMAccountReceiptHistoryDetailGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8722920C13BB00011AF78 /* SAIMAccountReceiptHistoryDetailGet.php */; };
+		EFB872AF20C13BB00011AF78 /* downloadImage.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8722A20C13BB00011AF78 /* downloadImage.php */; };
+		EFB872B020C13BB00011AF78 /* SAIMProductSizeDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8722B20C13BB00011AF78 /* SAIMProductSizeDelete.php */; };
+		EFB872B120C13BB00011AF78 /* SAIMAccountReceiptByPeriodGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8722C20C13BB00011AF78 /* SAIMAccountReceiptByPeriodGet.php */; };
+		EFB872B220C13BB00011AF78 /* SAIMUserAccountUpdateCountNotSeen.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8722D20C13BB00011AF78 /* SAIMUserAccountUpdateCountNotSeen.php */; };
+		EFB872B320C13BB00011AF78 /* SAIMUserAccountDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8722E20C13BB00011AF78 /* SAIMUserAccountDelete.php */; };
+		EFB872B420C13BB00011AF78 /* SAIMProductCategory1Delete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8722F20C13BB00011AF78 /* SAIMProductCategory1Delete.php */; };
+		EFB872B520C13BB00011AF78 /* dbConnect.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8723020C13BB00011AF78 /* dbConnect.php */; };
+		EFB872B620C13BB00011AF78 /* SAIMAccountInventoryAddedGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8723120C13BB00011AF78 /* SAIMAccountInventoryAddedGet.php */; };
+		EFB872B720C13BB00011AF78 /* SAIMDeviceInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8723220C13BB00011AF78 /* SAIMDeviceInsert.php */; };
+		EFB872B820C13BB00011AF78 /* SAIMSalesDetailGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8723320C13BB00011AF78 /* SAIMSalesDetailGet.php */; };
+		EFB872B920C13BB00011AF78 /* SAIMProductUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8723420C13BB00011AF78 /* SAIMProductUpdate.php */; };
+		EFB872BA20C13BB00011AF78 /* SAIMProductSalesUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8723520C13BB00011AF78 /* SAIMProductSalesUpdate.php */; };
+		EFB872BB20C13BB00011AF78 /* uploadPhoto.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8723620C13BB00011AF78 /* uploadPhoto.php */; };
+		EFB872BC20C13BB00011AF78 /* SAIMEventInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8723720C13BB00011AF78 /* SAIMEventInsert.php */; };
+		EFB872BD20C13BB00011AF78 /* SAIMCompareInventoryUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8723820C13BB00011AF78 /* SAIMCompareInventoryUpdate.php */; };
+		EFB872BE20C13BB00011AF78 /* SAIMProductSalesDeleteProductNameID.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8723920C13BB00011AF78 /* SAIMProductSalesDeleteProductNameID.php */; };
+		EFB872BF20C13BB00011AF78 /* SAIMProductEventIDUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8723A20C13BB00011AF78 /* SAIMProductEventIDUpdate.php */; };
+		EFB872C020C13BB00011AF78 /* SAIMProductInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8723B20C13BB00011AF78 /* SAIMProductInsert.php */; };
+		EFB872C120C13BB00011AF78 /* SAIMProductSalesInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8723C20C13BB00011AF78 /* SAIMProductSalesInsert.php */; };
+		EFB872C220C13BB00011AF78 /* SAIMMemberAndPointGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8723D20C13BB00011AF78 /* SAIMMemberAndPointGet.php */; };
+		EFB872C320C13BB00011AF78 /* SAIMEventUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8723E20C13BB00011AF78 /* SAIMEventUpdate.php */; };
+		EFB872C420C13BB00011AF78 /* SAIMMasterGetTest.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8723F20C13BB00011AF78 /* SAIMMasterGetTest.php */; };
+		EFB872C520C13BB00011AF78 /* SAIMCompareInventoryInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8724020C13BB00011AF78 /* SAIMCompareInventoryInsert.php */; };
+		EFB872C620C13BB00011AF78 /* urlinsertprefix.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8724120C13BB00011AF78 /* urlinsertprefix.php */; };
+		EFB872C720C13BB00011AF78 /* saimTransactinLog20180420.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB8724220C13BB00011AF78 /* saimTransactinLog20180420.log */; };
+		EFB872C820C13BB00011AF78 /* SAIMSalesByChannelGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8724320C13BB00011AF78 /* SAIMSalesByChannelGet.php */; };
+		EFB872C920C13BB00011AF78 /* SAIMEmailQRCode.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8724420C13BB00011AF78 /* SAIMEmailQRCode.php */; };
+		EFB872CA20C13BB00011AF78 /* SAIMEventCostInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8724520C13BB00011AF78 /* SAIMEventCostInsert.php */; };
+		EFB872CB20C13BB00011AF78 /* SAIMProductCostUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8724620C13BB00011AF78 /* SAIMProductCostUpdate.php */; };
+		EFB872CC20C13BB00011AF78 /* SAIMColorUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8724720C13BB00011AF78 /* SAIMColorUpdate.php */; };
+		EFB872CD20C13BB00011AF78 /* SAIMProductSalesUpdateDetail.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8724820C13BB00011AF78 /* SAIMProductSalesUpdateDetail.php */; };
+		EFB872CE20C13BB00011AF78 /* SAIMAccountReceiptInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8724920C13BB00011AF78 /* SAIMAccountReceiptInsert.php */; };
+		EFB872CF20C13BB00011AF78 /* SAIMReceiptProductItemPreOrderEventID.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8724A20C13BB00011AF78 /* SAIMReceiptProductItemPreOrderEventID.php */; };
+		EFB872D020C13BB00011AF78 /* SAIMAccountInventoryDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8724B20C13BB00011AF78 /* SAIMAccountInventoryDelete.php */; };
+		EFB872D120C13BB00011AF78 /* SAIMAccountReceiptGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8724C20C13BB00011AF78 /* SAIMAccountReceiptGet.php */; };
+		EFB872D220C13BB00011AF78 /* SAIMProductionOrderInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8724D20C13BB00011AF78 /* SAIMProductionOrderInsert.php */; };
+		EFB872D320C13BB00011AF78 /* SAIMUserAccountDeviceTokenUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8724E20C13BB00011AF78 /* SAIMUserAccountDeviceTokenUpdate.php */; };
+		EFB872D420C13BB00011AF78 /* downloadFile.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8724F20C13BB00011AF78 /* downloadFile.php */; };
+		EFB872D520C13BB00011AF78 /* SAIMImageRunningIDInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8725020C13BB00011AF78 /* SAIMImageRunningIDInsert.php */; };
+		EFB872D620C13BB00011AF78 /* SAIMColorInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8725120C13BB00011AF78 /* SAIMColorInsert.php */; };
+		EFB872D720C13BB00011AF78 /* SAIMProductAndProductionOrderInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8725220C13BB00011AF78 /* SAIMProductAndProductionOrderInsert.php */; };
+		EFB872D820C13BB00011AF78 /* SAIMAccountInventorySummaryGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8725320C13BB00011AF78 /* SAIMAccountInventorySummaryGet.php */; };
+		EFB872D920C13BB00011AF78 /* saimTransactinLog20180531.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB8725420C13BB00011AF78 /* saimTransactinLog20180531.log */; };
+		EFB872DA20C13BB00011AF78 /* SAIMReceiptByMemberGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8725520C13BB00011AF78 /* SAIMReceiptByMemberGet.php */; };
+		EFB872DB20C13BB00011AF78 /* SAIMProductSalesSetDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8725620C13BB00011AF78 /* SAIMProductSalesSetDelete.php */; };
+		EFB872DC20C13BB00011AF78 /* saimTransactinLog20180327.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB8725720C13BB00011AF78 /* saimTransactinLog20180327.log */; };
+		EFB872DD20C13BB00011AF78 /* SAIMProductStatusUpdateByProductID.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8725820C13BB00011AF78 /* SAIMProductStatusUpdateByProductID.php */; };
+		EFB872DE20C13BB00011AF78 /* SAIMPostCustomerByReceiptIDGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8725920C13BB00011AF78 /* SAIMPostCustomerByReceiptIDGet.php */; };
+		EFB872DF20C13BB00011AF78 /* SAIMCompareInventoryNotMatchInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8725A20C13BB00011AF78 /* SAIMCompareInventoryNotMatchInsert.php */; };
+		EFB872E020C13BB00011AF78 /* SAIMProductCategory2Update.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8725B20C13BB00011AF78 /* SAIMProductCategory2Update.php */; };
+		EFB872E120C13BB00011AF78 /* SAIMUserAccountUpdateMenuExtra.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8725C20C13BB00011AF78 /* SAIMUserAccountUpdateMenuExtra.php */; };
+		EFB872E220C13BB00011AF78 /* SAIMRewardProgramDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8725D20C13BB00011AF78 /* SAIMRewardProgramDelete.php */; };
+		EFB872E320C13BB00011AF78 /* SAIMCredentialsValidate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8725E20C13BB00011AF78 /* SAIMCredentialsValidate.php */; };
+		EFB872E420C13BB00011AF78 /* SAIMProductNameInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8725F20C13BB00011AF78 /* SAIMProductNameInsert.php */; };
+		EFB872E520C13BB00011AF78 /* SAIMWriteLog.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8726020C13BB00011AF78 /* SAIMWriteLog.php */; };
+		EFB872E620C13BB00011AF78 /* SAIMPostCustomerDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8726120C13BB00011AF78 /* SAIMPostCustomerDelete.php */; };
+		EFB872E720C13BB00011AF78 /* SAIMAccountReceiptHistorySummaryGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8726220C13BB00011AF78 /* SAIMAccountReceiptHistorySummaryGet.php */; };
+		EFB872E820C13BB00011AF78 /* SAIMSettingDeviceTokenUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8726320C13BB00011AF78 /* SAIMSettingDeviceTokenUpdate.php */; };
+		EFB872E920C13BB00011AF78 /* SAIMProductCategory2Insert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8726420C13BB00011AF78 /* SAIMProductCategory2Insert.php */; };
+		EFB872EA20C13BB00011AF78 /* SAIMLoginInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8726520C13BB00011AF78 /* SAIMLoginInsert.php */; };
+		EFB872EB20C13BB00011AF78 /* SAIMProductNameUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8726620C13BB00011AF78 /* SAIMProductNameUpdate.php */; };
+		EFB872EC20C13BB00011AF78 /* SAIMPushSyncSync.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB8726720C13BB00011AF78 /* SAIMPushSyncSync.php */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +190,139 @@
 		EFB871D020C13BA10011AF78 /* DorotaUrlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DorotaUrlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB871D420C13BA10011AF78 /* DorotaUrlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DorotaUrlUITests.m; sourceTree = "<group>"; };
 		EFB871D620C13BA10011AF78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFB871E320C13BB00011AF78 /* saimTransactinLog20180328.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180328.log; sourceTree = "<group>"; };
+		EFB871E420C13BB00011AF78 /* SAIMReceiptProductItemPreOrder.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMReceiptProductItemPreOrder.php; sourceTree = "<group>"; };
+		EFB871E520C13BB00011AF78 /* SAIMSalesSummaryByPeriodGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMSalesSummaryByPeriodGet.php; sourceTree = "<group>"; };
+		EFB871E620C13BB00011AF78 /* SAIMProductDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductDelete.php; sourceTree = "<group>"; };
+		EFB871E720C13BB00011AF78 /* SAIMProductSalesDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductSalesDelete.php; sourceTree = "<group>"; };
+		EFB871E820C13BB00011AF78 /* SAIMReceiptProductItemAndProductUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMReceiptProductItemAndProductUpdate.php; sourceTree = "<group>"; };
+		EFB871E920C13BB00011AF78 /* saimTransactinLog20180329.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180329.log; sourceTree = "<group>"; };
+		EFB871EA20C13BB00011AF78 /* sendEmail.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = sendEmail.php; sourceTree = "<group>"; };
+		EFB871EB20C13BB00011AF78 /* SAIMReceiptProductItemUnpost.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMReceiptProductItemUnpost.php; sourceTree = "<group>"; };
+		EFB871EC20C13BB00011AF78 /* SAIMSettingUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMSettingUpdate.php; sourceTree = "<group>"; };
+		EFB871ED20C13BB00011AF78 /* SAIMReceiptAndProductBuyInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMReceiptAndProductBuyInsert.php; sourceTree = "<group>"; };
+		EFB871EE20C13BB00011AF78 /* SAIMMasterGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMMasterGet.php; sourceTree = "<group>"; };
+		EFB871EF20C13BB00011AF78 /* SAIMUserAccountUpdateMenuExtra0.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMUserAccountUpdateMenuExtra0.php; sourceTree = "<group>"; };
+		EFB871F020C13BB00011AF78 /* SAIMCustomerReceiptUpdateTrackingNo.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMCustomerReceiptUpdateTrackingNo.php; sourceTree = "<group>"; };
+		EFB871F120C13BB00011AF78 /* SAIMAccountReceiptHistoryDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMAccountReceiptHistoryDelete.php; sourceTree = "<group>"; };
+		EFB871F220C13BB00011AF78 /* SAIMProductStatusGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductStatusGet.php; sourceTree = "<group>"; };
+		EFB871F320C13BB00011AF78 /* SAIMPushSyncUpdateTimeSynced.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMPushSyncUpdateTimeSynced.php; sourceTree = "<group>"; };
+		EFB871F420C13BB00011AF78 /* SAIMEventDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMEventDelete.php; sourceTree = "<group>"; };
+		EFB871F520C13BB00011AF78 /* SAIMItemRunningIDInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMItemRunningIDInsert.php; sourceTree = "<group>"; };
+		EFB871F620C13BB00011AF78 /* Sales.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = Sales.php; sourceTree = "<group>"; };
+		EFB871F720C13BB00011AF78 /* SAIMUserAccountUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMUserAccountUpdate.php; sourceTree = "<group>"; };
+		EFB871F820C13BB00011AF78 /* SAIMProductCategory1Update.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductCategory1Update.php; sourceTree = "<group>"; };
+		EFB871F920C13BB00011AF78 /* SAIMSalesSummaryGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMSalesSummaryGet.php; sourceTree = "<group>"; };
+		EFB871FA20C13BB00011AF78 /* SAIMCashAllocationInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMCashAllocationInsert.php; sourceTree = "<group>"; };
+		EFB871FB20C13BB00011AF78 /* SAIMPushSyncUpdateByDeviceToken.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMPushSyncUpdateByDeviceToken.php; sourceTree = "<group>"; };
+		EFB871FC20C13BB00011AF78 /* SAIMProductSalesUpdateCostMultiple.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductSalesUpdateCostMultiple.php; sourceTree = "<group>"; };
+		EFB871FD20C13BB00011AF78 /* SAIMReceiptProductItemUnpostCM.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMReceiptProductItemUnpostCM.php; sourceTree = "<group>"; };
+		EFB871FE20C13BB00011AF78 /* SAIMProductSizeUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductSizeUpdate.php; sourceTree = "<group>"; };
+		EFB871FF20C13BB00011AF78 /* SAIMProductionOrderAddedGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductionOrderAddedGet.php; sourceTree = "<group>"; };
+		EFB8720020C13BB00011AF78 /* SAIMProductSalesMultipleUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductSalesMultipleUpdate.php; sourceTree = "<group>"; };
+		EFB8720120C13BB00011AF78 /* SAIMUserAccountInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMUserAccountInsert.php; sourceTree = "<group>"; };
+		EFB8720220C13BB00011AF78 /* SAIMCashAllocationUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMCashAllocationUpdate.php; sourceTree = "<group>"; };
+		EFB8720320C13BB00011AF78 /* SAIMProductCategory1Insert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductCategory1Insert.php; sourceTree = "<group>"; };
+		EFB8720420C13BB00011AF78 /* SAIMEventGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMEventGet.php; sourceTree = "<group>"; };
+		EFB8720520C13BB00011AF78 /* SAIMReceiptUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMReceiptUpdate.php; sourceTree = "<group>"; };
+		EFB8720620C13BB00011AF78 /* SAIMProductSizeInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductSizeInsert.php; sourceTree = "<group>"; };
+		EFB8720720C13BB00011AF78 /* ck.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ck.pem; sourceTree = "<group>"; };
+		EFB8720820C13BB00011AF78 /* SAIMProductSalesUpdateCost.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductSalesUpdateCost.php; sourceTree = "<group>"; };
+		EFB8720920C13BB00011AF78 /* SAIMProductCategory2Delete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductCategory2Delete.php; sourceTree = "<group>"; };
+		EFB8720A20C13BB00011AF78 /* urlinsertlistprefix.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = urlinsertlistprefix.php; sourceTree = "<group>"; };
+		EFB8720B20C13BB00011AF78 /* SAIMRewardProgramUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMRewardProgramUpdate.php; sourceTree = "<group>"; };
+		EFB8720C20C13BB00011AF78 /* SAIMCustomMadeUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMCustomMadeUpdate.php; sourceTree = "<group>"; };
+		EFB8720D20C13BB00011AF78 /* SAIMPostCustomerInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMPostCustomerInsert.php; sourceTree = "<group>"; };
+		EFB8720E20C13BB00011AF78 /* SAIMProductDeleteFromEvent.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductDeleteFromEvent.php; sourceTree = "<group>"; };
+		EFB8720F20C13BB00011AF78 /* SAIMCustomerReceiptUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMCustomerReceiptUpdate.php; sourceTree = "<group>"; };
+		EFB8721020C13BB00011AF78 /* generateSalesAllEvents.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = generateSalesAllEvents.php; sourceTree = "<group>"; };
+		EFB8721120C13BB00011AF78 /* SAIMProductNameDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductNameDelete.php; sourceTree = "<group>"; };
+		EFB8721220C13BB00011AF78 /* SAIMRewardProgramInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMRewardProgramInsert.php; sourceTree = "<group>"; };
+		EFB8721320C13BB00011AF78 /* dorota20180406.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = dorota20180406.zip; sourceTree = "<group>"; };
+		EFB8721420C13BB00011AF78 /* SAIMReceiptProductItemPreOrderCM.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMReceiptProductItemPreOrderCM.php; sourceTree = "<group>"; };
+		EFB8721520C13BB00011AF78 /* SAIMTransferHistoryGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMTransferHistoryGet.php; sourceTree = "<group>"; };
+		EFB8721620C13BB00011AF78 /* SAIMUserAccountEventDeleteThenMultipleInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMUserAccountEventDeleteThenMultipleInsert.php; sourceTree = "<group>"; };
+		EFB8721720C13BB00011AF78 /* SAIMCustomerReceiptUpdatePostCustomerID.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMCustomerReceiptUpdatePostCustomerID.php; sourceTree = "<group>"; };
+		EFB8721820C13BB00011AF78 /* saimTransactinLog20180407.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180407.log; sourceTree = "<group>"; };
+		EFB8721920C13BB00011AF78 /* SAIMReceiptAndReceiptProductItemDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMReceiptAndReceiptProductItemDelete.php; sourceTree = "<group>"; };
+		EFB8721A20C13BB00011AF78 /* saimTransactinLog20180601.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180601.log; sourceTree = "<group>"; };
+		EFB8721B20C13BB00011AF78 /* testpush.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = testpush.php; sourceTree = "<group>"; };
+		EFB8721C20C13BB00011AF78 /* SAIMUserAccountEventDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMUserAccountEventDelete.php; sourceTree = "<group>"; };
+		EFB8721D20C13BB00011AF78 /* SAIMPushSyncUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMPushSyncUpdate.php; sourceTree = "<group>"; };
+		EFB8721E20C13BB00011AF78 /* SAIMAccountReceiptHistorySummaryByDateGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMAccountReceiptHistorySummaryByDateGet.php; sourceTree = "<group>"; };
+		EFB8721F20C13BB00011AF78 /* SAIMProductSalesSetInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductSalesSetInsert.php; sourceTree = "<group>"; };
+		EFB8722020C13BB00011AF78 /* SAIMProductionOrderDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductionOrderDelete.php; sourceTree = "<group>"; };
+		EFB8722120C13BB00011AF78 /* SAIMColorDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMColorDelete.php; sourceTree = "<group>"; };
+		EFB8722220C13BB00011AF78 /* SAIMReceiptProductItemUpdateCMIn.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMReceiptProductItemUpdateCMIn.php; sourceTree = "<group>"; };
+		EFB8722320C13BB00011AF78 /* SAIMProductTransferGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductTransferGet.php; sourceTree = "<group>"; };
+		EFB8722420C13BB00011AF78 /* SAIMProductEventIDUpdateByProductID.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductEventIDUpdateByProductID.php; sourceTree = "<group>"; };
+		EFB8722520C13BB00011AF78 /* SAIMAccountInventoryInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMAccountInventoryInsert.php; sourceTree = "<group>"; };
+		EFB8722620C13BB00011AF78 /* SAIMProductSalesSetUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductSalesSetUpdate.php; sourceTree = "<group>"; };
+		EFB8722720C13BB00011AF78 /* SAIMRewardProgramGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMRewardProgramGet.php; sourceTree = "<group>"; };
+		EFB8722820C13BB00011AF78 /* SAIMAccountReceiptHistoryGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMAccountReceiptHistoryGet.php; sourceTree = "<group>"; };
+		EFB8722920C13BB00011AF78 /* SAIMAccountReceiptHistoryDetailGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMAccountReceiptHistoryDetailGet.php; sourceTree = "<group>"; };
+		EFB8722A20C13BB00011AF78 /* downloadImage.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = downloadImage.php; sourceTree = "<group>"; };
+		EFB8722B20C13BB00011AF78 /* SAIMProductSizeDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductSizeDelete.php; sourceTree = "<group>"; };
+		EFB8722C20C13BB00011AF78 /* SAIMAccountReceiptByPeriodGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMAccountReceiptByPeriodGet.php; sourceTree = "<group>"; };
+		EFB8722D20C13BB00011AF78 /* SAIMUserAccountUpdateCountNotSeen.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMUserAccountUpdateCountNotSeen.php; sourceTree = "<group>"; };
+		EFB8722E20C13BB00011AF78 /* SAIMUserAccountDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMUserAccountDelete.php; sourceTree = "<group>"; };
+		EFB8722F20C13BB00011AF78 /* SAIMProductCategory1Delete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductCategory1Delete.php; sourceTree = "<group>"; };
+		EFB8723020C13BB00011AF78 /* dbConnect.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = dbConnect.php; sourceTree = "<group>"; };
+		EFB8723120C13BB00011AF78 /* SAIMAccountInventoryAddedGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMAccountInventoryAddedGet.php; sourceTree = "<group>"; };
+		EFB8723220C13BB00011AF78 /* SAIMDeviceInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMDeviceInsert.php; sourceTree = "<group>"; };
+		EFB8723320C13BB00011AF78 /* SAIMSalesDetailGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMSalesDetailGet.php; sourceTree = "<group>"; };
+		EFB8723420C13BB00011AF78 /* SAIMProductUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductUpdate.php; sourceTree = "<group>"; };
+		EFB8723520C13BB00011AF78 /* SAIMProductSalesUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductSalesUpdate.php; sourceTree = "<group>"; };
+		EFB8723620C13BB00011AF78 /* uploadPhoto.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = uploadPhoto.php; sourceTree = "<group>"; };
+		EFB8723720C13BB00011AF78 /* SAIMEventInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMEventInsert.php; sourceTree = "<group>"; };
+		EFB8723820C13BB00011AF78 /* SAIMCompareInventoryUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMCompareInventoryUpdate.php; sourceTree = "<group>"; };
+		EFB8723920C13BB00011AF78 /* SAIMProductSalesDeleteProductNameID.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductSalesDeleteProductNameID.php; sourceTree = "<group>"; };
+		EFB8723A20C13BB00011AF78 /* SAIMProductEventIDUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductEventIDUpdate.php; sourceTree = "<group>"; };
+		EFB8723B20C13BB00011AF78 /* SAIMProductInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductInsert.php; sourceTree = "<group>"; };
+		EFB8723C20C13BB00011AF78 /* SAIMProductSalesInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductSalesInsert.php; sourceTree = "<group>"; };
+		EFB8723D20C13BB00011AF78 /* SAIMMemberAndPointGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMMemberAndPointGet.php; sourceTree = "<group>"; };
+		EFB8723E20C13BB00011AF78 /* SAIMEventUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMEventUpdate.php; sourceTree = "<group>"; };
+		EFB8723F20C13BB00011AF78 /* SAIMMasterGetTest.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMMasterGetTest.php; sourceTree = "<group>"; };
+		EFB8724020C13BB00011AF78 /* SAIMCompareInventoryInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMCompareInventoryInsert.php; sourceTree = "<group>"; };
+		EFB8724120C13BB00011AF78 /* urlinsertprefix.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = urlinsertprefix.php; sourceTree = "<group>"; };
+		EFB8724220C13BB00011AF78 /* saimTransactinLog20180420.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180420.log; sourceTree = "<group>"; };
+		EFB8724320C13BB00011AF78 /* SAIMSalesByChannelGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMSalesByChannelGet.php; sourceTree = "<group>"; };
+		EFB8724420C13BB00011AF78 /* SAIMEmailQRCode.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMEmailQRCode.php; sourceTree = "<group>"; };
+		EFB8724520C13BB00011AF78 /* SAIMEventCostInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMEventCostInsert.php; sourceTree = "<group>"; };
+		EFB8724620C13BB00011AF78 /* SAIMProductCostUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductCostUpdate.php; sourceTree = "<group>"; };
+		EFB8724720C13BB00011AF78 /* SAIMColorUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMColorUpdate.php; sourceTree = "<group>"; };
+		EFB8724820C13BB00011AF78 /* SAIMProductSalesUpdateDetail.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductSalesUpdateDetail.php; sourceTree = "<group>"; };
+		EFB8724920C13BB00011AF78 /* SAIMAccountReceiptInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMAccountReceiptInsert.php; sourceTree = "<group>"; };
+		EFB8724A20C13BB00011AF78 /* SAIMReceiptProductItemPreOrderEventID.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMReceiptProductItemPreOrderEventID.php; sourceTree = "<group>"; };
+		EFB8724B20C13BB00011AF78 /* SAIMAccountInventoryDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMAccountInventoryDelete.php; sourceTree = "<group>"; };
+		EFB8724C20C13BB00011AF78 /* SAIMAccountReceiptGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMAccountReceiptGet.php; sourceTree = "<group>"; };
+		EFB8724D20C13BB00011AF78 /* SAIMProductionOrderInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductionOrderInsert.php; sourceTree = "<group>"; };
+		EFB8724E20C13BB00011AF78 /* SAIMUserAccountDeviceTokenUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMUserAccountDeviceTokenUpdate.php; sourceTree = "<group>"; };
+		EFB8724F20C13BB00011AF78 /* downloadFile.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = downloadFile.php; sourceTree = "<group>"; };
+		EFB8725020C13BB00011AF78 /* SAIMImageRunningIDInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMImageRunningIDInsert.php; sourceTree = "<group>"; };
+		EFB8725120C13BB00011AF78 /* SAIMColorInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMColorInsert.php; sourceTree = "<group>"; };
+		EFB8725220C13BB00011AF78 /* SAIMProductAndProductionOrderInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductAndProductionOrderInsert.php; sourceTree = "<group>"; };
+		EFB8725320C13BB00011AF78 /* SAIMAccountInventorySummaryGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMAccountInventorySummaryGet.php; sourceTree = "<group>"; };
+		EFB8725420C13BB00011AF78 /* saimTransactinLog20180531.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180531.log; sourceTree = "<group>"; };
+		EFB8725520C13BB00011AF78 /* SAIMReceiptByMemberGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMReceiptByMemberGet.php; sourceTree = "<group>"; };
+		EFB8725620C13BB00011AF78 /* SAIMProductSalesSetDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductSalesSetDelete.php; sourceTree = "<group>"; };
+		EFB8725720C13BB00011AF78 /* saimTransactinLog20180327.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180327.log; sourceTree = "<group>"; };
+		EFB8725820C13BB00011AF78 /* SAIMProductStatusUpdateByProductID.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductStatusUpdateByProductID.php; sourceTree = "<group>"; };
+		EFB8725920C13BB00011AF78 /* SAIMPostCustomerByReceiptIDGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMPostCustomerByReceiptIDGet.php; sourceTree = "<group>"; };
+		EFB8725A20C13BB00011AF78 /* SAIMCompareInventoryNotMatchInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMCompareInventoryNotMatchInsert.php; sourceTree = "<group>"; };
+		EFB8725B20C13BB00011AF78 /* SAIMProductCategory2Update.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductCategory2Update.php; sourceTree = "<group>"; };
+		EFB8725C20C13BB00011AF78 /* SAIMUserAccountUpdateMenuExtra.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMUserAccountUpdateMenuExtra.php; sourceTree = "<group>"; };
+		EFB8725D20C13BB00011AF78 /* SAIMRewardProgramDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMRewardProgramDelete.php; sourceTree = "<group>"; };
+		EFB8725E20C13BB00011AF78 /* SAIMCredentialsValidate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMCredentialsValidate.php; sourceTree = "<group>"; };
+		EFB8725F20C13BB00011AF78 /* SAIMProductNameInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductNameInsert.php; sourceTree = "<group>"; };
+		EFB8726020C13BB00011AF78 /* SAIMWriteLog.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMWriteLog.php; sourceTree = "<group>"; };
+		EFB8726120C13BB00011AF78 /* SAIMPostCustomerDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMPostCustomerDelete.php; sourceTree = "<group>"; };
+		EFB8726220C13BB00011AF78 /* SAIMAccountReceiptHistorySummaryGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMAccountReceiptHistorySummaryGet.php; sourceTree = "<group>"; };
+		EFB8726320C13BB00011AF78 /* SAIMSettingDeviceTokenUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMSettingDeviceTokenUpdate.php; sourceTree = "<group>"; };
+		EFB8726420C13BB00011AF78 /* SAIMProductCategory2Insert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductCategory2Insert.php; sourceTree = "<group>"; };
+		EFB8726520C13BB00011AF78 /* SAIMLoginInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMLoginInsert.php; sourceTree = "<group>"; };
+		EFB8726620C13BB00011AF78 /* SAIMProductNameUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductNameUpdate.php; sourceTree = "<group>"; };
+		EFB8726720C13BB00011AF78 /* SAIMPushSyncSync.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMPushSyncSync.php; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +353,7 @@
 		EFB8719E20C13B9F0011AF78 = {
 			isa = PBXGroup;
 			children = (
+				EFB871E220C13BB00011AF78 /* dorota url */,
 				EFB871A920C13B9F0011AF78 /* DorotaUrl */,
 				EFB871C820C13BA10011AF78 /* DorotaUrlTests */,
 				EFB871D320C13BA10011AF78 /* DorotaUrlUITests */,
@@ -140,6 +407,146 @@
 				EFB871D620C13BA10011AF78 /* Info.plist */,
 			);
 			path = DorotaUrlUITests;
+			sourceTree = "<group>";
+		};
+		EFB871E220C13BB00011AF78 /* dorota url */ = {
+			isa = PBXGroup;
+			children = (
+				EFB871E320C13BB00011AF78 /* saimTransactinLog20180328.log */,
+				EFB871E420C13BB00011AF78 /* SAIMReceiptProductItemPreOrder.php */,
+				EFB871E520C13BB00011AF78 /* SAIMSalesSummaryByPeriodGet.php */,
+				EFB871E620C13BB00011AF78 /* SAIMProductDelete.php */,
+				EFB871E720C13BB00011AF78 /* SAIMProductSalesDelete.php */,
+				EFB871E820C13BB00011AF78 /* SAIMReceiptProductItemAndProductUpdate.php */,
+				EFB871E920C13BB00011AF78 /* saimTransactinLog20180329.log */,
+				EFB871EA20C13BB00011AF78 /* sendEmail.php */,
+				EFB871EB20C13BB00011AF78 /* SAIMReceiptProductItemUnpost.php */,
+				EFB871EC20C13BB00011AF78 /* SAIMSettingUpdate.php */,
+				EFB871ED20C13BB00011AF78 /* SAIMReceiptAndProductBuyInsert.php */,
+				EFB871EE20C13BB00011AF78 /* SAIMMasterGet.php */,
+				EFB871EF20C13BB00011AF78 /* SAIMUserAccountUpdateMenuExtra0.php */,
+				EFB871F020C13BB00011AF78 /* SAIMCustomerReceiptUpdateTrackingNo.php */,
+				EFB871F120C13BB00011AF78 /* SAIMAccountReceiptHistoryDelete.php */,
+				EFB871F220C13BB00011AF78 /* SAIMProductStatusGet.php */,
+				EFB871F320C13BB00011AF78 /* SAIMPushSyncUpdateTimeSynced.php */,
+				EFB871F420C13BB00011AF78 /* SAIMEventDelete.php */,
+				EFB871F520C13BB00011AF78 /* SAIMItemRunningIDInsert.php */,
+				EFB871F620C13BB00011AF78 /* Sales.php */,
+				EFB871F720C13BB00011AF78 /* SAIMUserAccountUpdate.php */,
+				EFB871F820C13BB00011AF78 /* SAIMProductCategory1Update.php */,
+				EFB871F920C13BB00011AF78 /* SAIMSalesSummaryGet.php */,
+				EFB871FA20C13BB00011AF78 /* SAIMCashAllocationInsert.php */,
+				EFB871FB20C13BB00011AF78 /* SAIMPushSyncUpdateByDeviceToken.php */,
+				EFB871FC20C13BB00011AF78 /* SAIMProductSalesUpdateCostMultiple.php */,
+				EFB871FD20C13BB00011AF78 /* SAIMReceiptProductItemUnpostCM.php */,
+				EFB871FE20C13BB00011AF78 /* SAIMProductSizeUpdate.php */,
+				EFB871FF20C13BB00011AF78 /* SAIMProductionOrderAddedGet.php */,
+				EFB8720020C13BB00011AF78 /* SAIMProductSalesMultipleUpdate.php */,
+				EFB8720120C13BB00011AF78 /* SAIMUserAccountInsert.php */,
+				EFB8720220C13BB00011AF78 /* SAIMCashAllocationUpdate.php */,
+				EFB8720320C13BB00011AF78 /* SAIMProductCategory1Insert.php */,
+				EFB8720420C13BB00011AF78 /* SAIMEventGet.php */,
+				EFB8720520C13BB00011AF78 /* SAIMReceiptUpdate.php */,
+				EFB8720620C13BB00011AF78 /* SAIMProductSizeInsert.php */,
+				EFB8720720C13BB00011AF78 /* ck.pem */,
+				EFB8720820C13BB00011AF78 /* SAIMProductSalesUpdateCost.php */,
+				EFB8720920C13BB00011AF78 /* SAIMProductCategory2Delete.php */,
+				EFB8720A20C13BB00011AF78 /* urlinsertlistprefix.php */,
+				EFB8720B20C13BB00011AF78 /* SAIMRewardProgramUpdate.php */,
+				EFB8720C20C13BB00011AF78 /* SAIMCustomMadeUpdate.php */,
+				EFB8720D20C13BB00011AF78 /* SAIMPostCustomerInsert.php */,
+				EFB8720E20C13BB00011AF78 /* SAIMProductDeleteFromEvent.php */,
+				EFB8720F20C13BB00011AF78 /* SAIMCustomerReceiptUpdate.php */,
+				EFB8721020C13BB00011AF78 /* generateSalesAllEvents.php */,
+				EFB8721120C13BB00011AF78 /* SAIMProductNameDelete.php */,
+				EFB8721220C13BB00011AF78 /* SAIMRewardProgramInsert.php */,
+				EFB8721320C13BB00011AF78 /* dorota20180406.zip */,
+				EFB8721420C13BB00011AF78 /* SAIMReceiptProductItemPreOrderCM.php */,
+				EFB8721520C13BB00011AF78 /* SAIMTransferHistoryGet.php */,
+				EFB8721620C13BB00011AF78 /* SAIMUserAccountEventDeleteThenMultipleInsert.php */,
+				EFB8721720C13BB00011AF78 /* SAIMCustomerReceiptUpdatePostCustomerID.php */,
+				EFB8721820C13BB00011AF78 /* saimTransactinLog20180407.log */,
+				EFB8721920C13BB00011AF78 /* SAIMReceiptAndReceiptProductItemDelete.php */,
+				EFB8721A20C13BB00011AF78 /* saimTransactinLog20180601.log */,
+				EFB8721B20C13BB00011AF78 /* testpush.php */,
+				EFB8721C20C13BB00011AF78 /* SAIMUserAccountEventDelete.php */,
+				EFB8721D20C13BB00011AF78 /* SAIMPushSyncUpdate.php */,
+				EFB8721E20C13BB00011AF78 /* SAIMAccountReceiptHistorySummaryByDateGet.php */,
+				EFB8721F20C13BB00011AF78 /* SAIMProductSalesSetInsert.php */,
+				EFB8722020C13BB00011AF78 /* SAIMProductionOrderDelete.php */,
+				EFB8722120C13BB00011AF78 /* SAIMColorDelete.php */,
+				EFB8722220C13BB00011AF78 /* SAIMReceiptProductItemUpdateCMIn.php */,
+				EFB8722320C13BB00011AF78 /* SAIMProductTransferGet.php */,
+				EFB8722420C13BB00011AF78 /* SAIMProductEventIDUpdateByProductID.php */,
+				EFB8722520C13BB00011AF78 /* SAIMAccountInventoryInsert.php */,
+				EFB8722620C13BB00011AF78 /* SAIMProductSalesSetUpdate.php */,
+				EFB8722720C13BB00011AF78 /* SAIMRewardProgramGet.php */,
+				EFB8722820C13BB00011AF78 /* SAIMAccountReceiptHistoryGet.php */,
+				EFB8722920C13BB00011AF78 /* SAIMAccountReceiptHistoryDetailGet.php */,
+				EFB8722A20C13BB00011AF78 /* downloadImage.php */,
+				EFB8722B20C13BB00011AF78 /* SAIMProductSizeDelete.php */,
+				EFB8722C20C13BB00011AF78 /* SAIMAccountReceiptByPeriodGet.php */,
+				EFB8722D20C13BB00011AF78 /* SAIMUserAccountUpdateCountNotSeen.php */,
+				EFB8722E20C13BB00011AF78 /* SAIMUserAccountDelete.php */,
+				EFB8722F20C13BB00011AF78 /* SAIMProductCategory1Delete.php */,
+				EFB8723020C13BB00011AF78 /* dbConnect.php */,
+				EFB8723120C13BB00011AF78 /* SAIMAccountInventoryAddedGet.php */,
+				EFB8723220C13BB00011AF78 /* SAIMDeviceInsert.php */,
+				EFB8723320C13BB00011AF78 /* SAIMSalesDetailGet.php */,
+				EFB8723420C13BB00011AF78 /* SAIMProductUpdate.php */,
+				EFB8723520C13BB00011AF78 /* SAIMProductSalesUpdate.php */,
+				EFB8723620C13BB00011AF78 /* uploadPhoto.php */,
+				EFB8723720C13BB00011AF78 /* SAIMEventInsert.php */,
+				EFB8723820C13BB00011AF78 /* SAIMCompareInventoryUpdate.php */,
+				EFB8723920C13BB00011AF78 /* SAIMProductSalesDeleteProductNameID.php */,
+				EFB8723A20C13BB00011AF78 /* SAIMProductEventIDUpdate.php */,
+				EFB8723B20C13BB00011AF78 /* SAIMProductInsert.php */,
+				EFB8723C20C13BB00011AF78 /* SAIMProductSalesInsert.php */,
+				EFB8723D20C13BB00011AF78 /* SAIMMemberAndPointGet.php */,
+				EFB8723E20C13BB00011AF78 /* SAIMEventUpdate.php */,
+				EFB8723F20C13BB00011AF78 /* SAIMMasterGetTest.php */,
+				EFB8724020C13BB00011AF78 /* SAIMCompareInventoryInsert.php */,
+				EFB8724120C13BB00011AF78 /* urlinsertprefix.php */,
+				EFB8724220C13BB00011AF78 /* saimTransactinLog20180420.log */,
+				EFB8724320C13BB00011AF78 /* SAIMSalesByChannelGet.php */,
+				EFB8724420C13BB00011AF78 /* SAIMEmailQRCode.php */,
+				EFB8724520C13BB00011AF78 /* SAIMEventCostInsert.php */,
+				EFB8724620C13BB00011AF78 /* SAIMProductCostUpdate.php */,
+				EFB8724720C13BB00011AF78 /* SAIMColorUpdate.php */,
+				EFB8724820C13BB00011AF78 /* SAIMProductSalesUpdateDetail.php */,
+				EFB8724920C13BB00011AF78 /* SAIMAccountReceiptInsert.php */,
+				EFB8724A20C13BB00011AF78 /* SAIMReceiptProductItemPreOrderEventID.php */,
+				EFB8724B20C13BB00011AF78 /* SAIMAccountInventoryDelete.php */,
+				EFB8724C20C13BB00011AF78 /* SAIMAccountReceiptGet.php */,
+				EFB8724D20C13BB00011AF78 /* SAIMProductionOrderInsert.php */,
+				EFB8724E20C13BB00011AF78 /* SAIMUserAccountDeviceTokenUpdate.php */,
+				EFB8724F20C13BB00011AF78 /* downloadFile.php */,
+				EFB8725020C13BB00011AF78 /* SAIMImageRunningIDInsert.php */,
+				EFB8725120C13BB00011AF78 /* SAIMColorInsert.php */,
+				EFB8725220C13BB00011AF78 /* SAIMProductAndProductionOrderInsert.php */,
+				EFB8725320C13BB00011AF78 /* SAIMAccountInventorySummaryGet.php */,
+				EFB8725420C13BB00011AF78 /* saimTransactinLog20180531.log */,
+				EFB8725520C13BB00011AF78 /* SAIMReceiptByMemberGet.php */,
+				EFB8725620C13BB00011AF78 /* SAIMProductSalesSetDelete.php */,
+				EFB8725720C13BB00011AF78 /* saimTransactinLog20180327.log */,
+				EFB8725820C13BB00011AF78 /* SAIMProductStatusUpdateByProductID.php */,
+				EFB8725920C13BB00011AF78 /* SAIMPostCustomerByReceiptIDGet.php */,
+				EFB8725A20C13BB00011AF78 /* SAIMCompareInventoryNotMatchInsert.php */,
+				EFB8725B20C13BB00011AF78 /* SAIMProductCategory2Update.php */,
+				EFB8725C20C13BB00011AF78 /* SAIMUserAccountUpdateMenuExtra.php */,
+				EFB8725D20C13BB00011AF78 /* SAIMRewardProgramDelete.php */,
+				EFB8725E20C13BB00011AF78 /* SAIMCredentialsValidate.php */,
+				EFB8725F20C13BB00011AF78 /* SAIMProductNameInsert.php */,
+				EFB8726020C13BB00011AF78 /* SAIMWriteLog.php */,
+				EFB8726120C13BB00011AF78 /* SAIMPostCustomerDelete.php */,
+				EFB8726220C13BB00011AF78 /* SAIMAccountReceiptHistorySummaryGet.php */,
+				EFB8726320C13BB00011AF78 /* SAIMSettingDeviceTokenUpdate.php */,
+				EFB8726420C13BB00011AF78 /* SAIMProductCategory2Insert.php */,
+				EFB8726520C13BB00011AF78 /* SAIMLoginInsert.php */,
+				EFB8726620C13BB00011AF78 /* SAIMProductNameUpdate.php */,
+				EFB8726720C13BB00011AF78 /* SAIMPushSyncSync.php */,
+			);
+			path = "dorota url";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,9 +652,142 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFB872C720C13BB00011AF78 /* saimTransactinLog20180420.log in Resources */,
+				EFB872D320C13BB00011AF78 /* SAIMUserAccountDeviceTokenUpdate.php in Resources */,
+				EFB872B020C13BB00011AF78 /* SAIMProductSizeDelete.php in Resources */,
+				EFB872C420C13BB00011AF78 /* SAIMMasterGetTest.php in Resources */,
+				EFB872B420C13BB00011AF78 /* SAIMProductCategory1Delete.php in Resources */,
+				EFB872A820C13BB00011AF78 /* SAIMProductTransferGet.php in Resources */,
+				EFB8727120C13BB00011AF78 /* SAIMSettingUpdate.php in Resources */,
+				EFB872CB20C13BB00011AF78 /* SAIMProductCostUpdate.php in Resources */,
+				EFB872E720C13BB00011AF78 /* SAIMAccountReceiptHistorySummaryGet.php in Resources */,
+				EFB872B220C13BB00011AF78 /* SAIMUserAccountUpdateCountNotSeen.php in Resources */,
+				EFB872E920C13BB00011AF78 /* SAIMProductCategory2Insert.php in Resources */,
+				EFB8727E20C13BB00011AF78 /* SAIMSalesSummaryGet.php in Resources */,
+				EFB872A220C13BB00011AF78 /* SAIMPushSyncUpdate.php in Resources */,
+				EFB872A020C13BB00011AF78 /* testpush.php in Resources */,
+				EFB8727520C13BB00011AF78 /* SAIMCustomerReceiptUpdateTrackingNo.php in Resources */,
+				EFB8728220C13BB00011AF78 /* SAIMReceiptProductItemUnpostCM.php in Resources */,
+				EFB8727D20C13BB00011AF78 /* SAIMProductCategory1Update.php in Resources */,
+				EFB872DC20C13BB00011AF78 /* saimTransactinLog20180327.log in Resources */,
+				EFB872E420C13BB00011AF78 /* SAIMProductNameInsert.php in Resources */,
+				EFB872DD20C13BB00011AF78 /* SAIMProductStatusUpdateByProductID.php in Resources */,
+				EFB872BD20C13BB00011AF78 /* SAIMCompareInventoryUpdate.php in Resources */,
+				EFB872C520C13BB00011AF78 /* SAIMCompareInventoryInsert.php in Resources */,
+				EFB872CE20C13BB00011AF78 /* SAIMAccountReceiptInsert.php in Resources */,
+				EFB8727820C13BB00011AF78 /* SAIMPushSyncUpdateTimeSynced.php in Resources */,
+				EFB8728320C13BB00011AF78 /* SAIMProductSizeUpdate.php in Resources */,
+				EFB8729020C13BB00011AF78 /* SAIMRewardProgramUpdate.php in Resources */,
+				EFB8729320C13BB00011AF78 /* SAIMProductDeleteFromEvent.php in Resources */,
+				EFB8727720C13BB00011AF78 /* SAIMProductStatusGet.php in Resources */,
+				EFB872AC20C13BB00011AF78 /* SAIMRewardProgramGet.php in Resources */,
+				EFB872DF20C13BB00011AF78 /* SAIMCompareInventoryNotMatchInsert.php in Resources */,
+				EFB872A120C13BB00011AF78 /* SAIMUserAccountEventDelete.php in Resources */,
+				EFB8728D20C13BB00011AF78 /* SAIMProductSalesUpdateCost.php in Resources */,
+				EFB8726820C13BB00011AF78 /* saimTransactinLog20180328.log in Resources */,
+				EFB8727920C13BB00011AF78 /* SAIMEventDelete.php in Resources */,
+				EFB872CF20C13BB00011AF78 /* SAIMReceiptProductItemPreOrderEventID.php in Resources */,
+				EFB8728520C13BB00011AF78 /* SAIMProductSalesMultipleUpdate.php in Resources */,
+				EFB8729620C13BB00011AF78 /* SAIMProductNameDelete.php in Resources */,
+				EFB8729A20C13BB00011AF78 /* SAIMTransferHistoryGet.php in Resources */,
+				EFB8728E20C13BB00011AF78 /* SAIMProductCategory2Delete.php in Resources */,
+				EFB872BE20C13BB00011AF78 /* SAIMProductSalesDeleteProductNameID.php in Resources */,
+				EFB8729720C13BB00011AF78 /* SAIMRewardProgramInsert.php in Resources */,
+				EFB8729E20C13BB00011AF78 /* SAIMReceiptAndReceiptProductItemDelete.php in Resources */,
+				EFB8728B20C13BB00011AF78 /* SAIMProductSizeInsert.php in Resources */,
+				EFB8727620C13BB00011AF78 /* SAIMAccountReceiptHistoryDelete.php in Resources */,
+				EFB872A720C13BB00011AF78 /* SAIMReceiptProductItemUpdateCMIn.php in Resources */,
+				EFB8726E20C13BB00011AF78 /* saimTransactinLog20180329.log in Resources */,
+				EFB8727F20C13BB00011AF78 /* SAIMCashAllocationInsert.php in Resources */,
+				EFB872EA20C13BB00011AF78 /* SAIMLoginInsert.php in Resources */,
+				EFB8727C20C13BB00011AF78 /* SAIMUserAccountUpdate.php in Resources */,
+				EFB872E220C13BB00011AF78 /* SAIMRewardProgramDelete.php in Resources */,
+				EFB872AB20C13BB00011AF78 /* SAIMProductSalesSetUpdate.php in Resources */,
+				EFB872E020C13BB00011AF78 /* SAIMProductCategory2Update.php in Resources */,
+				EFB8728820C13BB00011AF78 /* SAIMProductCategory1Insert.php in Resources */,
+				EFB8727420C13BB00011AF78 /* SAIMUserAccountUpdateMenuExtra0.php in Resources */,
+				EFB872BA20C13BB00011AF78 /* SAIMProductSalesUpdate.php in Resources */,
+				EFB872A620C13BB00011AF78 /* SAIMColorDelete.php in Resources */,
+				EFB872C920C13BB00011AF78 /* SAIMEmailQRCode.php in Resources */,
+				EFB872E120C13BB00011AF78 /* SAIMUserAccountUpdateMenuExtra.php in Resources */,
+				EFB872B520C13BB00011AF78 /* dbConnect.php in Resources */,
+				EFB872D020C13BB00011AF78 /* SAIMAccountInventoryDelete.php in Resources */,
+				EFB872E620C13BB00011AF78 /* SAIMPostCustomerDelete.php in Resources */,
+				EFB8726F20C13BB00011AF78 /* sendEmail.php in Resources */,
+				EFB8727320C13BB00011AF78 /* SAIMMasterGet.php in Resources */,
+				EFB8728C20C13BB00011AF78 /* ck.pem in Resources */,
+				EFB8728120C13BB00011AF78 /* SAIMProductSalesUpdateCostMultiple.php in Resources */,
+				EFB872B120C13BB00011AF78 /* SAIMAccountReceiptByPeriodGet.php in Resources */,
+				EFB872C220C13BB00011AF78 /* SAIMMemberAndPointGet.php in Resources */,
+				EFB8728A20C13BB00011AF78 /* SAIMReceiptUpdate.php in Resources */,
+				EFB8729820C13BB00011AF78 /* dorota20180406.zip in Resources */,
+				EFB872C320C13BB00011AF78 /* SAIMEventUpdate.php in Resources */,
+				EFB8726920C13BB00011AF78 /* SAIMReceiptProductItemPreOrder.php in Resources */,
+				EFB872BB20C13BB00011AF78 /* uploadPhoto.php in Resources */,
+				EFB8729920C13BB00011AF78 /* SAIMReceiptProductItemPreOrderCM.php in Resources */,
+				EFB872C020C13BB00011AF78 /* SAIMProductInsert.php in Resources */,
+				EFB872B920C13BB00011AF78 /* SAIMProductUpdate.php in Resources */,
+				EFB872A520C13BB00011AF78 /* SAIMProductionOrderDelete.php in Resources */,
+				EFB8728920C13BB00011AF78 /* SAIMEventGet.php in Resources */,
+				EFB8726D20C13BB00011AF78 /* SAIMReceiptProductItemAndProductUpdate.php in Resources */,
+				EFB8729220C13BB00011AF78 /* SAIMPostCustomerInsert.php in Resources */,
+				EFB872BF20C13BB00011AF78 /* SAIMProductEventIDUpdate.php in Resources */,
+				EFB872AA20C13BB00011AF78 /* SAIMAccountInventoryInsert.php in Resources */,
+				EFB872A320C13BB00011AF78 /* SAIMAccountReceiptHistorySummaryByDateGet.php in Resources */,
+				EFB8728720C13BB00011AF78 /* SAIMCashAllocationUpdate.php in Resources */,
+				EFB872C620C13BB00011AF78 /* urlinsertprefix.php in Resources */,
+				EFB8728420C13BB00011AF78 /* SAIMProductionOrderAddedGet.php in Resources */,
+				EFB872D220C13BB00011AF78 /* SAIMProductionOrderInsert.php in Resources */,
+				EFB872BC20C13BB00011AF78 /* SAIMEventInsert.php in Resources */,
+				EFB872EB20C13BB00011AF78 /* SAIMProductNameUpdate.php in Resources */,
+				EFB872E520C13BB00011AF78 /* SAIMWriteLog.php in Resources */,
+				EFB872E320C13BB00011AF78 /* SAIMCredentialsValidate.php in Resources */,
+				EFB872A920C13BB00011AF78 /* SAIMProductEventIDUpdateByProductID.php in Resources */,
+				EFB872D920C13BB00011AF78 /* saimTransactinLog20180531.log in Resources */,
 				EFB871BD20C13BA10011AF78 /* LaunchScreen.storyboard in Resources */,
+				EFB872AF20C13BB00011AF78 /* downloadImage.php in Resources */,
+				EFB8727020C13BB00011AF78 /* SAIMReceiptProductItemUnpost.php in Resources */,
+				EFB872D120C13BB00011AF78 /* SAIMAccountReceiptGet.php in Resources */,
+				EFB8728020C13BB00011AF78 /* SAIMPushSyncUpdateByDeviceToken.php in Resources */,
+				EFB8729C20C13BB00011AF78 /* SAIMCustomerReceiptUpdatePostCustomerID.php in Resources */,
+				EFB8729F20C13BB00011AF78 /* saimTransactinLog20180601.log in Resources */,
+				EFB8728F20C13BB00011AF78 /* urlinsertlistprefix.php in Resources */,
+				EFB8729120C13BB00011AF78 /* SAIMCustomMadeUpdate.php in Resources */,
+				EFB8729B20C13BB00011AF78 /* SAIMUserAccountEventDeleteThenMultipleInsert.php in Resources */,
+				EFB8727A20C13BB00011AF78 /* SAIMItemRunningIDInsert.php in Resources */,
+				EFB872DB20C13BB00011AF78 /* SAIMProductSalesSetDelete.php in Resources */,
+				EFB8728620C13BB00011AF78 /* SAIMUserAccountInsert.php in Resources */,
+				EFB872C120C13BB00011AF78 /* SAIMProductSalesInsert.php in Resources */,
+				EFB8726B20C13BB00011AF78 /* SAIMProductDelete.php in Resources */,
 				EFB871BA20C13BA10011AF78 /* Assets.xcassets in Resources */,
+				EFB872CA20C13BB00011AF78 /* SAIMEventCostInsert.php in Resources */,
+				EFB872A420C13BB00011AF78 /* SAIMProductSalesSetInsert.php in Resources */,
+				EFB872DE20C13BB00011AF78 /* SAIMPostCustomerByReceiptIDGet.php in Resources */,
+				EFB872D420C13BB00011AF78 /* downloadFile.php in Resources */,
+				EFB872D820C13BB00011AF78 /* SAIMAccountInventorySummaryGet.php in Resources */,
+				EFB872B620C13BB00011AF78 /* SAIMAccountInventoryAddedGet.php in Resources */,
 				EFB871B820C13B9F0011AF78 /* Main.storyboard in Resources */,
+				EFB872CD20C13BB00011AF78 /* SAIMProductSalesUpdateDetail.php in Resources */,
+				EFB8727B20C13BB00011AF78 /* Sales.php in Resources */,
+				EFB8727220C13BB00011AF78 /* SAIMReceiptAndProductBuyInsert.php in Resources */,
+				EFB872AD20C13BB00011AF78 /* SAIMAccountReceiptHistoryGet.php in Resources */,
+				EFB872E820C13BB00011AF78 /* SAIMSettingDeviceTokenUpdate.php in Resources */,
+				EFB872DA20C13BB00011AF78 /* SAIMReceiptByMemberGet.php in Resources */,
+				EFB8726C20C13BB00011AF78 /* SAIMProductSalesDelete.php in Resources */,
+				EFB872D520C13BB00011AF78 /* SAIMImageRunningIDInsert.php in Resources */,
+				EFB8729420C13BB00011AF78 /* SAIMCustomerReceiptUpdate.php in Resources */,
+				EFB872B820C13BB00011AF78 /* SAIMSalesDetailGet.php in Resources */,
+				EFB872C820C13BB00011AF78 /* SAIMSalesByChannelGet.php in Resources */,
+				EFB8729D20C13BB00011AF78 /* saimTransactinLog20180407.log in Resources */,
+				EFB872B320C13BB00011AF78 /* SAIMUserAccountDelete.php in Resources */,
+				EFB872B720C13BB00011AF78 /* SAIMDeviceInsert.php in Resources */,
+				EFB8729520C13BB00011AF78 /* generateSalesAllEvents.php in Resources */,
+				EFB872CC20C13BB00011AF78 /* SAIMColorUpdate.php in Resources */,
+				EFB872D620C13BB00011AF78 /* SAIMColorInsert.php in Resources */,
+				EFB872AE20C13BB00011AF78 /* SAIMAccountReceiptHistoryDetailGet.php in Resources */,
+				EFB872D720C13BB00011AF78 /* SAIMProductAndProductionOrderInsert.php in Resources */,
+				EFB872EC20C13BB00011AF78 /* SAIMPushSyncSync.php in Resources */,
+				EFB8726A20C13BB00011AF78 /* SAIMSalesSummaryByPeriodGet.php in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
